@@ -1,1 +1,27 @@
-/* ok */
+nav {
+    background-color: rgb(20, 223, 20);
+    font-size: 18px;
+    padding: 8px 8px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 16px;
+}
+
+#nombreWeb {
+    font-size: 24px;
+}
+
+/*Investar: @media (max-width: tamaño) */

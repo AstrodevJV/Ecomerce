@@ -1,27 +1,43 @@
-nav {
-    background-color: rgb(20, 223, 20);
-    font-size: 18px;
-    padding: 8px 8px;
-}
-
-nav ul {
-    list-style-type: none;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-nav ul li {
-    display: inline;
+header {
+    background-color: rgb(209, 211, 211);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
-nav ul li a {
+.navegacion {
+    list-style-type: none;
+    display: flex;
+}
+
+.navegacion li {
+    margin-left: 24px;
+}
+
+.navegacion a {
     text-decoration: none;
-    color: black;
-    padding: 0px 16px;
+    color: rgb(29, 29, 29);
+    font-size: 16px;
 }
 
-#nombreWeb {
-    font-size: 24px;
+.logo {
+    padding-right: 24px;
 }
 
-/*Investar: @media (max-width: tamaño) */
+#buscador {
+    display: none;
+    flex-grow: 1;
+    transition: opacity 0.3s;
+}
+
+#navegacion {
+    transition: opacity 0.3s;
+}

@@ -1,16 +1,17 @@
+/* General */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Navegación */
 header {
-    background-color: rgb(209, 211, 211);
+    background-color: rgb(225, 226, 226);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 4px 24px;
 }
 
 .navegacion {
@@ -28,16 +29,41 @@ header {
     font-size: 16px;
 }
 
-.logo {
-    padding-right: 24px;
-}
-
 #buscador {
     display: none;
     flex-grow: 1;
     transition: opacity 0.3s;
+    padding: 6px 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 24px;
+    outline: none;
 }
 
-#navegacion {
-    transition: opacity 0.3s;
+#botonBuscar {
+    background: none;
+    border: none;
 }
+
+#botonBuscar img {
+    width: 20px;
+    height: auto;
+}
+
+.logo {
+    padding-right: 24px;
+}
+
+
+
+/*
+Padding
+1 valor: Todos los lados.
+2 valores: 1 para superior/inferior, 1 para izquierda/derecha.
+3 valores: 1 para superior, 2 para izquierda/derecha, 3 para inferior.
+4 valores: Superior, derecho, inferior, izquierdo.
+*/
+
+/* 
+background-color: rgb(209, 211, 211)
+*/

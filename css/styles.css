@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+Padding
+1 valor: Todos los lados.
+2 valores: 1 para superior/inferior, 1 para izquierda/derecha.
+3 valores: 1 para superior, 2 para izquierda/derecha, 3 para inferior.
+4 valores: Superior, derecho, inferior, izquierdo.
+*/

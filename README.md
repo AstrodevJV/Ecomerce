@@ -40,7 +40,7 @@ Asimismo, la gestión del inventario, el seguimiento de pedidos y la integració
 
 ## 🛠️ Tecnologías Utilizadas
 - **Backend:** Java + Spring Boot
-- **Frontend:** React.js / Next.js
+- **Frontend:** React.js
 - **Base de Datos:** PostgreSQL / MySQL
 - **Autenticación:** JWT / OAuth 2.0
 - **Despliegue:** En proceso

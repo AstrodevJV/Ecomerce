@@ -1,7 +1,9 @@
 # 🛒 Ecommerce
 
 ## 📌 Descripción
-// Descripcion ayuda bro 
+En la actualidad, muchas pequeñas y medianas empresas enfrentan desafíos para establecer y gestionar su presencia en línea de manera eficiente. Además, muchos comercios tienen dificultades para ofrecer una experiencia de compra fluida y segura, lo que impacta directamente en la conversión de ventas.
+
+Asimismo, la gestión del inventario, el seguimiento de pedidos y la integración con plataformas de pago seguras son tareas que requieren tiempo y recursos significativos. Sin una solución integral y accesible, muchas empresas se ven limitadas en su capacidad para expandir su alcance y maximizar sus ventas en línea. 
 
 ## 🚀 Características Principales
 - 🛍️ Gestión de productos (creación, edición, eliminación)
